@@ -1,12 +1,27 @@
 import React from "react";
-import { AppBar, } from "@mui/material";
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import { Settings } from "@mui/icons-material";
+import { AppBar, IconButton, styled, Toolbar, Typography, } from "@mui/material";
+import { Settings, AccountCircle} from "@mui/icons-material";
 
 const Navbar = () => {
-    return <AppBar className="Navbar" color="primary" enableColorOnDark>
-        <AccountCircleIcon className="ProfilePhoto"/>
-        <Settings className="Settings Menu"/>
+
+    const StyledToolbar = styled(Toolbar)({
+        
+        '@media all': {
+          minHeight: 48,
+        },
+    })
+
+    return <AppBar position="static" color="primary" enableColorOnDark>
+        <StyledToolbar>
+        <Typography  sx={{ flexGrow: 1}}/>
+        <IconButton >
+            <Settings sx={{ fontSize: 23 }}/>
+        </IconButton>
+        <IconButton>
+            <AccountCircle sx={{ fontSize: 30 }}/>
+        </IconButton>
+        <p>SDAez</p>
+        </StyledToolbar>
     </AppBar>
 }
 

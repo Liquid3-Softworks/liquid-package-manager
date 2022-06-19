@@ -6,6 +6,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import mainTheme from './muiThemes';
 
 function App() {
+
   return (
     <ThemeProvider theme={mainTheme}> 
       <div className="App">
