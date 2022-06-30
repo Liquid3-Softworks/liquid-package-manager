@@ -1,1 +1,0 @@
-sudo npm uninstall --global yarn 

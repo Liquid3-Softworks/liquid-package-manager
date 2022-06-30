@@ -1,1 +1,0 @@
-sudo rustup self uninstall

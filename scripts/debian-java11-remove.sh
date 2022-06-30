@@ -1,1 +1,0 @@
-sudo apt remove default-jdk
