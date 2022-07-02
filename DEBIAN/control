@@ -1,5 +1,5 @@
 Package: lpm
-Version: 0.1
+Version: 0.2
 Maintainer: sdalez <alecarneiro2007@gmail.com>
 Depends: libc6
 Architecture: amd64

@@ -3,7 +3,7 @@
 int main() {
    int commands;
 
-   commands = system("echo 0.1");
+   commands = system("echo v0.2");
 
    return commands;
 }
