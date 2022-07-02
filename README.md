@@ -1,4 +1,12 @@
-# Liquid Bounty App
+# Liquid Package Manager CLI
+
+### The commands for the CLI are:
+
+- lpm-version
+- lpm-install-package
+- lpm-remove-package
+
+# Liquid Package Manager App
 
 This project was made with [React](https://reactjs.org/) and [Tauri](https://tauri.app/)
 
